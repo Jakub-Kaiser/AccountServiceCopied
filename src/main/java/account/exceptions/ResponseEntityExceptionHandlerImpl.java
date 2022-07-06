@@ -21,7 +21,7 @@ import java.util.Date;
 @ControllerAdvice
 public class ResponseEntityExceptionHandlerImpl extends ResponseEntityExceptionHandler {
 //    adding comment just to change something for git
-    //adding comment on dev branch
+    //this is new as of 06 07 2022
     @Override
     protected ResponseEntity<Object> handleMethodArgumentNotValid(MethodArgumentNotValidException ex, HttpHeaders headers, HttpStatus status, WebRequest request) {
         String defaultMessage = ex
